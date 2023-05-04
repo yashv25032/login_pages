@@ -1,0 +1,88 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to bottom, #ffafbd  0%, #ffc3a0 92%) no-repeat ;
+    height: 100vh;
+ 
+}
+
+.main{
+    width: 380px;
+    margin: 7% 20% 0% 33%;
+    border-radius: 25px;
+    /* background-color: rgb(0,0,0,0.2); */
+    box-shadow:10px #da239d;
+    background-color: #fb85aa ;
+
+}
+
+.main .head{
+    text-align: center;
+}
+.main .head h1{
+    top: 2%; 
+    padding-top: 2%;
+
+}
+
+.main .login{
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 280px;
+
+}
+
+.main .login form{
+    margin: 18px;
+}
+
+.main .login form input{
+    height: 34px;
+    width: 90%;
+    border: none;
+    border-top-left-radius: 5px;
+    
+}
+.main .login form input:hover{
+    cursor: pointer;
+    border:20px #da239d;
+
+}
+
+.main .login form .btn button{
+    margin-top:7% ;
+    margin-left: 15%;
+    width: 60%; 
+    height: 42px;
+    border-radius:5px;
+    border-color: 10px solid rgb(255, 255, 255);
+    box-shadow: 10px;
+    font-weight: 600;
+    background-color: #f28bbf ;
+
+}
+.main .login form .btn button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%);
+    border-radius: 25px;
+    transition: 0.7s;
+    
+}
+
+.main .login form label{
+    font-size: medium;
+    font-weight: bold;
+
+}
+.main .login form .link{
+    margin: 30px;
+}
+
+.main .login form .link a{
+    margin: 10px;
+    color: black;
+}
+
